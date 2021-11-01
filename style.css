@@ -1,0 +1,89 @@
+/* Remove white background */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Font styling */
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 42px;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+ol, ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+/* Link styles with pseudo-classes */
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: crimson;
+  text-decoration: underline;
+}
+
+a:active {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+/* Format and styling */
+.dark {
+  background-color: #5F7470;
+  color: #fff;
+  padding: 10px;
+}
+
+.light {
+  background-color: #E0E2DB;
+  color: #000;
+  padding: 10px;
+}
+
+section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+hr {
+  border: 1px solid #000;
+  width: 600px;
+}
+
+.wrapper {
+  width: 600px;
+  margin: auto;
+}
+
+/* Center image and text */
+.image-center {
+  margin: auto;
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
