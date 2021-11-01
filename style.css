@@ -1,4 +1,4 @@
-/* Remove white background */
+/* Styling for the body tag - so that white space does not "appear" on the viewport */
 body {
   margin: 0;
   padding: 0;
@@ -86,4 +86,6 @@ hr {
   text-align: center;
 }
 
-
+#me {
+  width: 400px;
+}
